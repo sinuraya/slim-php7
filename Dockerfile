@@ -1,4 +1,4 @@
-FROM sinuraya:7.1.6-apache
+FROM sinuraya/slim-php7
 ARG DB_NAME
 ARG DB_USER 
 ARG DB_PASSWORD 
